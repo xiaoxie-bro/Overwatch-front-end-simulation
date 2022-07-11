@@ -1,0 +1,713 @@
+<!--
+ * @作者: 小谢不肉
+ * @Date: 2022-06-26 16:52:40
+ * @LastEditTime: 2022-07-10 16:25:34
+ * @FilePath: \project\OW\计科2-谢泳宜\计科2-谢泳宜\nav.html
+ * @Description: OW
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <script src="./heroes.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <div class="warp">
+                <ul class="left">
+                    <li></li>
+                    <li>
+                        游戏
+                        <i class="arrow"></i>
+                        <div class="box">
+                            <div class="subnav">
+                                <ul class="warp">
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-overwatch-CN-85c98611cefd3018.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-world-of-warcraft-CN-c4bebe45e5af0993.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-hearthstone-CN-538b49564ab2122a.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-heroes-of-the-storm-CN-bacafbbddcf92348.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-warcraft-3-reforged-CN.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-diablo-immortal-CN.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-diablo-3-CN-0d57444efa52a79b.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-starcraft-2-CN-de310c5ddfb63a49.jpg" alt=""></li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/card-starcraft-remastered-CN.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>商城</li>
+                    <li>新闻</li>
+                    <li>
+                        电子竞技
+                        <i class="arrow"></i>
+                        <div class="box">
+                            <div class="subnav">
+                                <ul class="warp">
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/esports-ow.png" alt="">守望先锋</li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/navbar/hs-logo.png" alt="">炉石传说</li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/navbar/wow-logo.png" alt="">魔兽世界</li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/wariii.png" alt="">魔兽争霸</li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/navbar/sc2-logo.png" alt="">星际争霸II</li>
+                                    <li><img src="https://blz.nosdn.127.net/1/fsbnet/navbar/heroes-logo.png" alt="">风暴英雄</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>暴雪嘉年华</li>
+                </ul>
+                <ul class="right">
+                    <li>支持</li>
+                    <li>我的账户</li>
+                </ul>
+            </div>
+        </nav>
+    
+        <nav class="mainnav">
+            <li></li>
+            <li>
+                游戏
+                <i class="arrow"></i>
+                <ul class="subnav">
+                    <li><a href="">概述</a></li>
+                    <li><a href="">地图</a></li>
+                    <li><a href="">赞赏系统</a></li>
+                </ul>
+            </li>
+            <li>英雄</li>
+            <li>活动
+                <i class="arrow"></i>
+                <ul class="subnav">
+                    <li><a href="">夏季运动会</a></li>
+                    <li><a href="">行动档案</a></li>
+                    <li><a href="">欢度新春</a></li>
+                    <li><a href="">雪国仙境</a></li>
+                    <li><a href="">万圣夜惊魂</a></li>
+                    <li><a href="">周年庆典</a></li>
+                </ul>
+            </li>
+            <li>视频图片</li>
+            <li>
+                新闻
+                <i class="arrow"></i>
+                <ul class="subnav">
+                    <li><a href="">新闻</a></li>
+                    <li><a href="">补丁</a></li>
+                    <li><a href="">《守望先锋》“归来”</a></li>
+                </ul>
+            </li>
+            <li>下载</li>
+            <li>
+                电子竞技
+                <i class="arrow"></i>
+                <ul class="subnav">
+                    <li><a href="">概述</a></li>
+                    <li><a href="">守望先锋公开竟霸赛</a></li>
+                    <li><a href="">守望先锋挑战者选拔赛</a></li>
+                    <li><a href="">守望先锋联赛</a></li>
+                </ul>
+            </li>
+            <li>
+                社区
+                <i class="arrow"></i>
+                <ul class="subnav">
+                    <li><a href="">生涯数据</a></li>
+                    <li><a href="">我们身边的英雄</a></li>
+                    <li><a href="">论坛</a></li>
+                </ul>
+            </li>
+            <li>
+                <b>购买</b>
+            </li>
+        </nav>
+
+        <video src="https://overwatch.nosdn.127.net/1/assets/img/pages/home/anniversary/header.webm" autoplay="autoplay"
+        muted loop></video>
+
+        <div class="contral">
+            <button class="play" onclick="playVideo()">播放</button>
+            <button class="pause" onclick="pauseVideo()">暂停</button>
+        </div>
+        
+        <div class="home-header-content">
+            <img src="https://overwatch.nosdn.127.net/1/assets/img/pages/home/logo_new_0321.png" class="home-header-logo">
+            <div class="home-header-button-contain">
+                <a class="left-button"  text-decoration="none">新内容介绍</a>
+                <a class="right-button" text-decoration="none">立即购买</a>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="app">
+
+        <div class="title">
+            <h1>各具特色的英雄</h1>
+            <p>不论喜欢哪种游戏方式，你总能找到适合自己玩法的英雄。</p>
+            <p>掌握他们独特的技能玩法，享受《守望先锋》的无穷乐趣！</p>
+        </div>
+
+        <div class="banner">
+            <div class="xxx">
+                <div class="thumb"><img :src="cHero.overlay" alt=""></div>
+                <div class="info">
+                    <h3>{{cHero.name}}</h3>
+                    <p>{{cHero.description}}</p>
+
+                </div>
+
+            </div>
+
+            <div class="mask"></div>
+        </div>
+
+        <ul class="heros">
+            <li v-for="hero in heroes" @mouseenter="xxx(hero)">
+                <div class="thumb">
+                    <div class="avatar">
+                        <img :src="hero.icon" alt="">
+                    </div>
+                </div>
+                <h6>
+                    <span>{{hero.name}}</span>
+                </h6>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const App = {
+            data() {
+                return {
+                    msg: 'hello',
+                    friends: [11, 22, 33, 44, 55],
+                    heroes: heroes,
+                    cHero: heroes[0]
+                }
+            },
+            methods: {
+                xxx: function (hero) {
+                    this.cHero = hero
+                }
+            }
+        }
+
+        Vue.createApp(App).mount('#app')
+
+    </script>
+    
+    <script>
+        var videoEl = document.querySelector('video')
+        // 选中DOM元素
+
+        videoEl.paused
+        // 访问DOM属性 是否暂停
+
+
+        function pauseVideo() {
+            videoEl.pause()
+        }
+        function playVideo() {
+            videoEl.play()
+        }
+
+        // 视频播放的时候
+        videoEl.onplay = function () {
+            document.querySelector('.play').style.display = "none"
+            document.querySelector('.pause').style.display = "inline"
+        }
+
+        videoEl.onpause = function () {
+            document.querySelector('.pause').style.display = "none"
+            document.querySelector('.play').style.display = "inline"
+        }
+    </script>
+
+    <style>
+        header {
+            height: 100vh;
+        }
+
+        #app {
+            background-image: url('https://overwatch.nosdn.127.net/1/assets/img/pages/home/candy.jpg');
+            background-position: center;
+            background-size: cover;
+            padding-top: 100px;
+        }
+
+        .heros {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        #app .banner {
+            position: relative;
+        }
+
+        #app .banner .xxx {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 9;
+            color: white;
+        }
+
+        #app .banner .mask {
+            background: linear-gradient(to right, transparent,rgba(0, 0, 0, .8), transparent);
+            height: 200px;
+            width: 100%;
+            position: absolute;
+            top: 150px;
+            left: 0;
+            z-index: 1;
+        }
+
+        #app .banner .thumb {
+            flex: 6;
+            text-align: right;
+        }
+
+        #app .banner .thumb img {
+            height: 500px;
+            margin-right: 100px;
+        }
+
+        #app .banner .info {
+            flex: 4;
+        }
+
+        #app .title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        /**/
+        header {
+            position: relative;
+        }
+
+        header video {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        /**/
+
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #f2f1ed;
+            height: 48px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .warp{
+            width: 1520px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        .topnav {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+            background-color: rgba(0, 0, 0, .7);
+            color: #FFFFFFB3;
+
+            position: relative;
+        }
+
+        .topnav .left{
+            display: flex;
+
+        }
+
+        .topnav .left>li{
+            line-height: 40px;
+            margin-right: 20px;
+        }
+
+        .topnav .left>li:first-child {
+            width: 62px;
+            height: 40px;
+            background-image: url('https://blz.nosdn.127.net/1/fsbnet/icon-sprite.png');
+            background-position: -17px -75px;
+        }
+
+        .topnav .left>li:first-child:hover {
+            background-position: -17px -119px;
+        }
+
+        .topnav .left>li .arrow {
+            width: 14px;
+            height: 7px;
+            display: inline-block;
+            background-image: url('https://blz.nosdn.127.net/1/fsbnet/icon-sprite.png');
+            background-position: -147px -131px;
+        }
+
+        .topnav .left>li:hover .arrow {
+            background-position: -147px -146px;
+        }
+
+        .topnav .right {
+            display: flex;
+
+        }
+
+        .topnav .right>li {
+            line-height: 40px;
+            margin-right: 20px;
+        }
+
+        .topnav .left>li:hover .box {
+            /*display: block;*/
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .topnav .box {
+            width: 100%;
+            height: calc(100vh - 40px);
+            background-color: rgba(0, 0, 0, .3);
+            position: absolute;
+            top: 40px;
+            left: 0;
+            /*display: none;*/
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+            z-index: 9;
+        }
+
+        .topnav .box .subnav {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, .7);
+            padding: 40px 0;
+        }
+
+        .topnav .box .subnav li {
+            width: 150px;
+            height: 180px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            box-shadow:0 0 3px o rgba(255, 255, 255, 0.5);
+            transform: translateY(-40px);
+            opacity: 0;          
+        }
+
+        .topnav .left>li:hover .box .subnav li:nth-child(1){
+            transition-delay: 0;
+        }
+
+        .topnav .left>li:hover .box .subnav li:nth-child(2){
+            transition-delay: 0.1s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(3){
+            transition-delay: 0.2s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(4){
+            transition-delay: 0.3s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(5){
+            transition-delay: 0.4s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(6){
+            transition-delay: 0.5s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(7){
+            transition-delay: 0.6s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(8){
+            transition-delay: 0.7s;
+        }
+        
+        .topnav .left>li:hover .box .subnav li:nth-child(9){
+            transition-delay: 0.8s;
+        }
+
+        .topnav .left>li:hover .box .subnav li {
+            transform: translateY(0px);
+            opacity: 1;
+            transition: all .3s;
+
+            
+        }
+
+        .topnav .left>li .box .subnav li:hover {
+            box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.9);
+            filter:brightness(1.2)
+        }
+
+        .topnav .box .subnav li img {
+            width: 111.5%;
+            height: 100%;
+        }
+
+        /**/
+
+        .mainnav {
+            background-color: white;
+            height: 48px;
+            width: 100%;
+            margin: 40px auto;
+        }
+
+        .mainnav>li {
+            float: left;
+            line-height: 48px;
+            color: #343b41;
+            padding: 0 20px;
+            border-right: 1px solid rgb(197, 197, 197);
+            position: relative;
+        }
+        
+        .mainnav>li:first-child {
+            width: 53px;
+            height: 48px;
+            padding: 0;
+            background: url("https://overwatch.nosdn.127.net/1/assets/img/logos/nav_logo_new.jpg");
+        }
+
+        .mainnav>li .arrow {
+            width: 14px;
+            height: 8px;
+            background: url("https://overwatch.nosdn.127.net/1/assets/img/icons/menus/nav_arrow.png");
+            display: inline-block;
+            margin-left: 5px;
+            transition: transform .3s;
+        }
+
+        .mainnav>li:hover .arrow {
+            background-position-y: -8px;
+            transform: rotate(180deg);
+            position: relative;
+        }
+
+        .mainnav>li:last-child {
+            float: right;
+            width: 63px;
+            padding: 0 40px;
+            background-color: #f7931e;
+            color: white;
+        }
+
+        
+
+        .mainnav>li:hover {
+            background-color: #343b41;
+            color: #f7931e;
+        }
+
+        .mainnav>li:last-child:hover {
+            background-color: #f7931e;
+            margin: auto;
+            color: white;
+        }
+
+        .mainnav>li:hover .subnav {
+            display: block;
+        }
+
+        .mainnav .subnav {
+            width: 160px;
+            background: #343b41;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            display: none;
+        }
+
+        .mainnav .subnav li {
+            border-bottom: 1px solid #4B535D;
+        }
+
+        .mainnav .subnav li a {
+            padding-left: 15px;
+            font-size: 14px;
+            margin-left: 2px;
+            border-left: 1px solid transparent;
+            line-height: 1em;
+            color: white;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        .subnav li:hover a {
+            border-left: 1px solid #f7931e;
+        }
+
+        
+
+        .home-header-content{
+            width: 400px;
+            height: 169.77px;
+            margin: 280px auto;
+            left: 40px;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position:absolute;
+            
+        }
+
+        .home-header-logo{
+            width: 350px;
+            height: 77.77px;
+            margin: 30px 0px -40px 11.5467px;
+            position: center;
+        }
+        
+        .home-header-button-contain{
+            width:352px;
+            height: 42px;
+            color: #333333;
+            margin: 60px 0px 0px;
+        }
+
+        .left-button{
+            width:96px;
+            height:22px;
+            color: white;
+            margin: 0px 10px;
+            padding: 10px 30px;
+            border-radius: 2px;
+            background-color: #00A5E2;
+            float: left;
+            text-align:center;
+            font-weight: bold;
+        }
+
+        .right-button{
+            width:96px;
+            height:22px;
+            color: white;
+            margin: 0px 10px;
+            padding: 10px 30px;
+            border-radius: 2px;
+            background-color: #FF9C00;
+            float: right;
+            text-align:center;
+            font-weight: bold;
+        }
+
+        /**/
+
+        .heros {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .heros li {
+            width: 70px;
+            margin: 5px;
+            /* background-color: lightblue; */
+
+        }
+
+        .heros li .thumb {
+            transition: all .3s; 
+        }
+
+        .heros li .avatar {
+            height: 85px;
+            background-color: rgb(83, 83, 83);
+            display: flex;
+            justify-content: center;
+            /*  */
+            overflow: hidden;
+
+            transform-origin: bottom;
+            transform: skewX(-6deg);
+
+            /* transition: all .3s; */
+
+            border-radius: 5px;
+            box-shadow: 0 0 0 3px rgb(240, 240, 240);
+        }
+
+        .heros li .avatar img {
+            height: 100%;
+            transform: skewX(6deg);
+
+        }
+
+        .heros li h6 {
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .heros li h6 span {
+            /* background-color: red; */
+            padding: 3px;
+            border-radius: 3px;
+            font-size: 10px;
+            white-space: nowrap;
+        }
+
+        .heros li:hover .thumb {
+            transform: scale(1.1);
+        }
+
+        .heros li:hover .thumb .avatar {
+            background-color: orange;
+        }
+
+        .heros li:hover h6 {
+            transform: translateY(-5px);
+        }
+
+        .heros li:hover h6 span {
+            background-color: lightgray;
+        }
+
+    </style>
+
+</body>
+
+</html>
